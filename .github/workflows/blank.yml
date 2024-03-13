@@ -1,5 +1,6 @@
 name: first_workflow
 # we use on to specify when this workflow should get triggered
+# The "workflow_dispatch" event in GitHub Actions allows you to manually trigger a workflow run for a repository. 
 on: workflow_dispatch
 jobs:  
   first_job:
