@@ -1,0 +1,12 @@
+name: first_workflow
+# we use on to specify when this workflow should get triggered
+on: workflow_dispatch
+jobs:  
+  first_job:
+    runs-on: ubuntu-latest
+    steps:
+      # each "-" shows start of new step
+      -name: print greeting
+       run: echo "hello world"
+      -name: print bye
+       run: echo "good bye"
