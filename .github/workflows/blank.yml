@@ -7,7 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       # each "-" shows start of new step
-      -name: print greeting
-       run: echo "hello world"
-      -name: print bye
-       run: echo "good bye"
+      - name: print greeting
+        run:  echo "hello world"
+      - name: print bye
+        run: echo "good bye"
